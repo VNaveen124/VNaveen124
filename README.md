@@ -24,8 +24,8 @@
 ---
 
 ### 📊 GitHub Stats
-![GitHub Streak](https://streak-stats.demolab.com/?user=NaveenVelanati&theme=tokyonight)
-![Profile Views](https://komarev.com/ghpvc/?username=NaveenVelanati&color=brightgreen)
+![GitHub Streak](https://streak-stats.demolab.com/?user=VNaveen124&theme=tokyonight)
+![Profile Views](https://komarev.com/ghpvc/?username=VNaveen124&color=brightgreen)
 
 
 ---
