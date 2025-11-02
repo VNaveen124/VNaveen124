@@ -23,8 +23,12 @@
 
 ---
 
+### 📊 GitHub Stats
+![GitHub Streak](https://streak-stats.demolab.com/?user=NaveenVelanati&theme=tokyonight)
+![Profile Views](https://komarev.com/ghpvc/?username=NaveenVelanati&color=brightgreen)
 
 
+---
 ### 🤝 Connect with Me
 <p align="left">
 <a href="https://www.linkedin.com/in/naveenvelanati/" target="blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" width="40" /></a>
