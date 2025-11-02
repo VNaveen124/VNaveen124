@@ -23,11 +23,7 @@
 
 ---
 
-### 📊 GitHub Stats
-![Naveen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaveenVelanati&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NaveenVelanati&layout=compact&theme=tokyonight)
 
----
 
 ### 🤝 Connect with Me
 <p align="left">
