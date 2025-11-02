@@ -82,34 +82,8 @@ Detail-oriented **Cloud & DevOps Engineer** with **3+ years of hands-on experien
 
 ---
 
-### 📈 **GitHub Stats**
-![Naveen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaveenVelanati&show_icons=true&theme=tokyonight)  
-![GitHub Streak](https://streak-stats.demolab.com?user=NaveenVelanati&theme=tokyonight)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NaveenVelanati&layout=compact&theme=tokyonight)  
-
----
-
-### 🤝 **Connect with Me**
-<p align="left">
-<a href="https://www.linkedin.com/in/naveenvelanati/" target="blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" width="40" /></a>
-<a href="mailto:naveenkumarvelanati@gmail.com" target="blank"><img align="center" src="https://skillicons.dev/icons?i=gmail" alt="Gmail" height="40" width="40" /></a>
-</p>
-
----
-
-### 👁️ **Profile Views**
-![Profile Views](https://komarev.com/ghpvc/?username=NaveenVelanati&color=brightgreen)
-
----
-
-⭐ *“Always learning, automating, and building better cloud systems.”* ☁️
-
-
----
-
 ### 📊 GitHub Stats
 ![Naveen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VNaveen124&show_icons=true&theme=tokyonight)
-![Profile Views](https://komarev.com/ghpvc/?username=VNaveen124&color=brightgreen)
 ![GitHub Streak](https://streak-stats.demolab.com?user=VNaveen124&theme=tokyonight)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VNaveen124&layout=compact&theme=tokyonight)
 
@@ -120,3 +94,15 @@ Detail-oriented **Cloud & DevOps Engineer** with **3+ years of hands-on experien
 <a href="https://www.linkedin.com/in/naveenvelanati/" target="blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" width="40" /></a>
 <a href="mailto:naveenkumarvelanati@gmail.com" target="blank"><img align="center" src="https://skillicons.dev/icons?i=gmail" alt="Gmail" height="40" width="40" /></a>
 </p>
+
+
+---
+
+### 👁️ **Profile Views**
+![Profile Views](https://komarev.com/ghpvc/?username=VNaveen124&color=brightgreen)
+
+---
+
+⭐ *“Always learning, automating, and building better cloud systems.”* ☁️
+
+
