@@ -24,8 +24,9 @@
 ---
 
 ### 📊 GitHub Stats
-![GitHub Streak](https://streak-stats.demolab.com/?user=VNaveen124&theme=tokyonight)
-![Profile Views](https://komarev.com/ghpvc/?username=VNaveen124&color=brightgreen)
+![Naveen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VNaveen124&show_icons=true&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com?user=VNaveen124&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VNaveen124&layout=compact&theme=tokyonight)
 
 
 ---
