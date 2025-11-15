@@ -29,7 +29,7 @@ Detail-oriented **Cloud & DevOps Engineer** with **3+ years of hands-on experien
 ### 💼 **Professional Experience**  
 
 #### 🚀 Cloud Engineer | Zerocode Innovations Pvt Ltd  
-📅 *Jan 2022 – Present | Remote*  
+📅 *Dec 2023 – Present | Remote*  
 - Designed and deployed **scalable cloud infrastructure** using AWS (EC2, S3, RDS, VPC, IAM, Route 53).  
 - Implemented **CI/CD pipelines** in Jenkins and GitHub Actions for automated testing and deployment.  
 - Containerized Java and Angular apps using **Docker** and deployed them on **Kubernetes (EKS)**.  
@@ -39,7 +39,7 @@ Detail-oriented **Cloud & DevOps Engineer** with **3+ years of hands-on experien
 - Reduced deployment time by **40%** through pipeline automation.  
 
 #### 🔧 Junior DevOps Engineer | Zerocode Innovations Pvt Ltd  
-📅 *Mar 2020 – Dec 2021 | Hyderabad, India*  
+📅 *Jun 2022 – Dec 2023 | Hyderabad, India*  
 - Built **CI/CD workflows** using Jenkins, Git, and Docker for microservices applications.  
 - Worked on **Kubernetes clusters** for container orchestration and scaling.  
 - Managed **Nginx reverse proxies and SSL termination** for multi-service architecture.  
