@@ -8,7 +8,7 @@
 ---
 
 ### 🧑‍💻 **Professional Summary**  
-Detail-oriented **Cloud & DevOps Engineer** with **3+ years of hands-on experience** in automating cloud infrastructure, CI/CD pipelines, and containerized deployments. Skilled in **AWS, Azure, and Kubernetes**, with a strong background in **Terraform, Ansible, Jenkins, and Docker**. Adept at implementing scalable cloud environments, optimizing costs, and ensuring secure, reliable infrastructure. Passionate about continuous improvement and problem-solving through automation and innovation.  
+Detail-oriented **Cloud & DevOps Engineer** with **3 years 6 months of hands-on experience** in automating cloud infrastructure, CI/CD pipelines, and containerized deployments. Skilled in **AWS, Azure, and Kubernetes**, with a strong background in **Terraform, Ansible, Jenkins, and Docker**. Adept at implementing scalable cloud environments, optimizing costs, and ensuring secure, reliable infrastructure. Passionate about continuous improvement and problem-solving through automation and innovation.  
 
 ---
 
@@ -29,7 +29,7 @@ Detail-oriented **Cloud & DevOps Engineer** with **3+ years of hands-on experien
 ### 💼 **Professional Experience**  
 
 #### 🚀 Cloud Engineer | Zerocode Innovations Pvt Ltd  
-📅 *Dec 2023 – Present | Remote*  
+📅 *Dec 2023 – Nov 2025 | Remote*  
 - Designed and deployed **scalable cloud infrastructure** using AWS (EC2, S3, RDS, VPC, IAM, Route 53).  
 - Implemented **CI/CD pipelines** in Jenkins and GitHub Actions for automated testing and deployment.  
 - Containerized Java and Angular apps using **Docker** and deployed them on **Kubernetes (EKS)**.  
