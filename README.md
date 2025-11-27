@@ -2,7 +2,7 @@
 
 ### ☁️ Cloud & DevOps Engineer | Automating Infrastructure | CI/CD Pipelines | AWS | Docker | Kubernetes | Terraform  
 
-📍 Hyderabad, India | ✉️ [naveenkumarvelanati@gmail.com](mailto:naveenkumarvelanati@gmail.com) | 📞 +91 9848545101  
+📍 Hyderabad, India | ✉️ [naveen.velanati1998@gmail.com](mailto:naveen.velanati1998@gmail.com) | 📞 +91 7386731524  
 🌐 [LinkedIn: linkedin.com/in/naveenvelanati](https://www.linkedin.com/in/naveenvelanati/)  
 
 ---
