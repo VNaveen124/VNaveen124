@@ -84,7 +84,7 @@ Detail-oriented **Cloud & DevOps Engineer** with **3 years 6 months of hands-on 
 ---
 
 ### 📊 GitHub Stats
-![Naveen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VNaveen124&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VNaveen124&show_icons=true&theme=tokyonight&cache_seconds=1800)
 ![GitHub Streak](https://streak-stats.demolab.com?user=VNaveen124&theme=tokyonight)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VNaveen124&layout=compact&theme=tokyonight)
 
