@@ -83,13 +83,7 @@ Detail-oriented **Cloud & DevOps Engineer** with **3 years 6 months of hands-on 
 
 ---
 
-### 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VNaveen124&show_icons=true&theme=tokyonight&cache_seconds=1800)
-![GitHub Streak](https://streak-stats.demolab.com?user=VNaveen124&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VNaveen124&layout=compact&theme=tokyonight)
 
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=VNaveen124&show_icons=true&theme=tokyonight&cache_seconds=1800" /> <img src="https://streak-stats.demolab.com?user=VNaveen124&theme=tokyonight&cache_seconds=1800" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VNaveen124&layout=compact&theme=tokyonight&cache_seconds=1800" /> </p>
 
 
 ---
@@ -97,6 +91,7 @@ Detail-oriented **Cloud & DevOps Engineer** with **3 years 6 months of hands-on 
 <p align="left">
 <a href="https://www.linkedin.com/in/naveenvelanati/" target="blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" width="40" /></a>
 <a href="mailto:naveenkumarvelanati@gmail.com" target="blank"><img align="center" src="https://skillicons.dev/icons?i=gmail" alt="Gmail" height="40" width="40" /></a>
+<a href="https://chat.whatsapp.com/G1KZUEWNBs97etCb5vat1q" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/whatsapp/whatsapp-original.svg" width="40" /></a>
 </p>
 
 
