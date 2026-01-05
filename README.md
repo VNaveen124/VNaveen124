@@ -89,6 +89,9 @@ Detail-oriented **Cloud & DevOps Engineer** with **3 years 6 months of hands-on 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VNaveen124&layout=compact&theme=tokyonight)
 
 
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=VNaveen124&show_icons=true&theme=tokyonight&cache_seconds=1800" /> <img src="https://streak-stats.demolab.com?user=VNaveen124&theme=tokyonight&cache_seconds=1800" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VNaveen124&layout=compact&theme=tokyonight&cache_seconds=1800" /> </p>
+
+
 ---
 ### 🤝 Connect with Me
 <p align="left">
