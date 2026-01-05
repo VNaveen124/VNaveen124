@@ -91,7 +91,7 @@ Detail-oriented **Cloud & DevOps Engineer** with **3 years 6 months of hands-on 
 <p align="left">
 <a href="https://www.linkedin.com/in/naveenvelanati/" target="blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" width="40" /></a>
 <a href="mailto:naveenkumarvelanati@gmail.com" target="blank"><img align="center" src="https://skillicons.dev/icons?i=gmail" alt="Gmail" height="40" width="40" /></a>
-<a href="https://chat.whatsapp.com/G1KZUEWNBs97etCb5vat1q" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/whatsapp/whatsapp-original.svg" width="40" /></a>
+<a href="https://chat.whatsapp.com/G1KZUEWNBs97etCb5vat1q" target="_blank"><img src="https://img.icons8.com/color/48/whatsapp--v1.png" width="40" /></a>
 </p>
 
 
