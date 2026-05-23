@@ -1,4 +1,4 @@
-name: "\ud83d\udd12 Security Scan"
+name: "Security Scan"
 
 on:
   push:
@@ -16,10 +16,10 @@ jobs:
       security-events: write
 
     steps:
-      - name: "\ud83d\udce5 Checkout code"
+      - name: "Checkout code"
         uses: actions/checkout@v4
 
-      - name: "\ud83d\udd0d Run Trivy vulnerability scanner"
+      - name: "Run Trivy vulnerability scanner"
         uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'fs'
@@ -27,13 +27,13 @@ jobs:
           format: 'sarif'
           output: 'trivy-results.sarif'
 
-      - name: "\ud83d\udce4 Upload results"
+      - name: "Upload results"
         uses: github/codeql-action/upload-sarif@v3
         if: always()
         with:
           sarif_file: 'trivy-results.sarif'
 
-      - name: "\ud83d\udd10 Check for secrets"
+      - name: "Check for secrets"
         uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

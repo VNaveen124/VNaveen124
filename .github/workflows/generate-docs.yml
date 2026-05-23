@@ -1,4 +1,4 @@
-name: "\ud83d\udcd6 Generate Documentation"
+name: "Generate Documentation"
 
 on:
   push:
@@ -12,10 +12,10 @@ jobs:
       contents: write
 
     steps:
-      - name: "\ud83d\udce5 Checkout"
+      - name: "Checkout"
         uses: actions/checkout@v4
 
-      - name: "\ud83d\udcdd Generate Docs"
+      - name: "Generate Docs"
         run: |
           mkdir -p docs
 
@@ -43,10 +43,10 @@ jobs:
           ### Issue: Connection Timeout
           EOF
 
-      - name: "\ud83d\udcdd Commit changes"
+      - name: "Commit changes"
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "\ud83e\udd16 GitHub Actions"
+          git config --local user.name "GitHub Actions"
           git add docs/INSTALLATION.md docs/TROUBLESHOOTING.md
-          git commit -m "\ud83d\udcd6 docs: auto-generate documentation" || echo "No changes"
+          git commit -m "docs: auto-generate documentation" || echo "No changes"
           git push || echo "Nothing to push"

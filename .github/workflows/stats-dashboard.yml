@@ -1,4 +1,4 @@
-name: "\ud83d\udcca Update Stats Dashboard"
+name: "Update Stats Dashboard"
 
 on:
   schedule:
@@ -12,13 +12,13 @@ jobs:
       contents: write
 
     steps:
-      - name: "\ud83d\udce5 Checkout"
+      - name: "Checkout"
         uses: actions/checkout@v4
 
-      - name: "\ud83d\udcca Generate Statistics"
+      - name: "Generate Statistics"
         run: |
           cat > STATS.md << 'EOF'
-          # \ud83d\udcca Repository Statistics
+          # Repository Statistics
 
           ## Generated: $(date '+%Y-%m-%d %H:%M:%S')
 
@@ -29,22 +29,22 @@ jobs:
           - DevOps best practices
 
           ### Repository Health
-          - \u2705 All workflows active
-          - \u2705 Security scans enabled
-          - \u2705 Documentation updated
-          - \u2705 Code quality maintained
+          - All workflows active
+          - Security scans enabled
+          - Documentation updated
+          - Code quality maintained
 
           ### Growth Metrics
-          - \u2b50 Maintaining consistent commits
-          - \ud83d\udcc8 Building community engagement
-          - \ud83d\udcdd Publishing regular content
-          - \ud83d\ude80 Expanding project portfolio
+          - Maintaining consistent commits
+          - Building community engagement
+          - Publishing regular content
+          - Expanding project portfolio
           EOF
 
-      - name: "\ud83d\udcdd Commit changes"
+      - name: "Commit changes"
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "\ud83e\udd16 GitHub Actions"
+          git config --local user.name "GitHub Actions"
           git add STATS.md
-          git commit -m "\ud83d\udcca chore: update statistics dashboard" || echo "No changes"
+          git commit -m "chore: update statistics dashboard" || echo "No changes"
           git push || echo "Nothing to push"
