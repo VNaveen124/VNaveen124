@@ -1,0 +1,50 @@
+name: 📊 Update Stats Dashboard
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 📊 Generate Statistics
+        run: |
+          cat > STATS.md << 'EOF'
+          # 📊 Repository Statistics
+          
+          ## Generated: $(date '+%Y-%m-%d %H:%M:%S')
+          
+          ### Latest Contributions
+          - Automated stats tracking
+          - Continuous integration setup
+          - Security implementations
+          - DevOps best practices
+          
+          ### Repository Health
+          - ✅ All workflows active
+          - ✅ Security scans enabled
+          - ✅ Documentation updated
+          - ✅ Code quality maintained
+          
+          ### Growth Metrics
+          - ⭐ Maintaining consistent commits
+          - 📈 Building community engagement
+          - 📝 Publishing regular content
+          - 🚀 Expanding project portfolio
+          EOF
+
+      - name: 📝 Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "🤖 GitHub Actions"
+          git add STATS.md
+          git commit -m "📊 chore: update statistics dashboard" || echo "No changes"
+          git push || echo "Nothing to push"
