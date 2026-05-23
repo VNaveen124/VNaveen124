@@ -1,4 +1,4 @@
-name: "\ud83d\udccb Weekly Activity Summary"
+name: "Weekly Activity Summary"
 
 on:
   schedule:
@@ -12,35 +12,35 @@ jobs:
       contents: write
 
     steps:
-      - name: "\ud83d\udce5 Checkout"
+      - name: "Checkout"
         uses: actions/checkout@v4
 
-      - name: "\ud83d\udcca Generate Weekly Report"
+      - name: "Generate Weekly Report"
         id: report
         run: |
           WEEK=$(date +%V)
           YEAR=$(date +%Y)
           DATE=$(date '+%B %d, %Y')
 
-          echo "## \ud83d\udcca Weekly Summary - Week $WEEK, $YEAR" > WEEKLY_REPORT.md
+          echo "##  Weekly Summary - Week $WEEK, $YEAR" > WEEKLY_REPORT.md
           echo "" >> WEEKLY_REPORT.md
           echo "**Generated:** $DATE" >> WEEKLY_REPORT.md
           echo "" >> WEEKLY_REPORT.md
-          echo "### \ud83d\udcca This Week's Focus:" >> WEEKLY_REPORT.md
+          echo "###  This Week's Focus:" >> WEEKLY_REPORT.md
           echo "- DevOps automation and CI/CD pipelines" >> WEEKLY_REPORT.md
           echo "- Infrastructure as Code improvements" >> WEEKLY_REPORT.md
           echo "- Security and compliance updates" >> WEEKLY_REPORT.md
           echo "- Documentation and knowledge sharing" >> WEEKLY_REPORT.md
           echo "" >> WEEKLY_REPORT.md
-          echo "### \ud83c\udfaf Upcoming Goals:" >> WEEKLY_REPORT.md
+          echo "###  Upcoming Goals:" >> WEEKLY_REPORT.md
           echo "- Continue building showcase projects" >> WEEKLY_REPORT.md
           echo "- Publish technical articles" >> WEEKLY_REPORT.md
           echo "- Engage with DevOps community" >> WEEKLY_REPORT.md
 
-      - name: "\ud83d\udcdd Commit changes"
+      - name: "Commit changes"
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "\ud83e\udd16 GitHub Actions"
+          git config --local user.name "GitHub Actions"
           git add WEEKLY_REPORT.md
-          git commit -m "\ud83d\udccb docs: add weekly activity summary" || echo "No changes"
+          git commit -m "docs: add weekly activity summary" || echo "No changes"
           git push || echo "Nothing to push"
