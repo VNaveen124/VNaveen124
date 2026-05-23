@@ -62,7 +62,11 @@ With **4 years of DevOps expertise**, I transform infrastructure challenges into
 
 <div align="center">
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VNaveen124&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)
+
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=VNaveen124&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VNaveen124&theme=tokyonight&layout=compact&hide_border=true)
 
 </div>
 
