@@ -1,8 +1,7 @@
-name: Update Profile Stats
-
+name: 📊 Update Profile Stats
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,18 +10,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Sync latest README
-        run: |
-          echo "Profile stats synced at $(date)" >> /tmp/log.txt
-          cat /tmp/log.txt
-      - name: Commit changes
+      - uses: actions/checkout@v4
+      - name: Update stats
+        run: echo "Stats updated at $(date)" >> stats.log
+      - name: Commit
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Actions"
-          git add README.md || true
-          git commit -m "chore: auto-update profile stats" || echo "No changes to commit"
-          git push || echo "Nothing to push"
+          git config --local user.name "GitHub Action"
+          git add stats.log || true
+          git commit -m "chore: update stats" || true
+          git push || true

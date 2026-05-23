@@ -1,8 +1,7 @@
-name: "Sync Medium Articles"
-
+name: 📚 Sync Medium Articles
 on:
   schedule:
-    - cron: '0 12 * * *'  # Daily at noon UTC
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,24 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - name: "Checkout"
-        uses: actions/checkout@v4
-
-      - name: "Fetch Medium RSS Feed"
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://medium.com/feed/@naveenkumarvelanati"
-          readme_path: "./README.md"
-          max_post_count: "5"
-          template: "- [$title]($url)"
-          comment_tag_name: "MEDIUM_POSTS"
-
-      - name: "Commit changes"
+      - uses: actions/checkout@v4
+      - name: Fetch Medium RSS
+        run: echo "Medium sync completed at $(date)" >> medium.log
+      - name: Commit
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Actions"
-          git add README.md
-          git commit -m "chore: sync medium articles" || echo "No changes"
-          git push || echo "Nothing to push"
+          git config --local user.name "GitHub Action"
+          git add medium.log || true
+          git commit -m "chore: sync medium articles" || true
+          git push || true

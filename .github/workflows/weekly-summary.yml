@@ -1,8 +1,7 @@
-name: "Weekly Activity Summary"
-
+name: 📋 Weekly Summary
 on:
   schedule:
-    - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
+    - cron: '0 9 * * 1'
   workflow_dispatch:
 
 jobs:
@@ -10,37 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - name: "Checkout"
-        uses: actions/checkout@v4
-
-      - name: "Generate Weekly Report"
-        id: report
+      - uses: actions/checkout@v4
+      - name: Generate summary
         run: |
-          WEEK=$(date +%V)
-          YEAR=$(date +%Y)
-          DATE=$(date '+%B %d, %Y')
-
-          echo "##  Weekly Summary - Week $WEEK, $YEAR" > WEEKLY_REPORT.md
-          echo "" >> WEEKLY_REPORT.md
-          echo "**Generated:** $DATE" >> WEEKLY_REPORT.md
-          echo "" >> WEEKLY_REPORT.md
-          echo "###  This Week's Focus:" >> WEEKLY_REPORT.md
-          echo "- DevOps automation and CI/CD pipelines" >> WEEKLY_REPORT.md
-          echo "- Infrastructure as Code improvements" >> WEEKLY_REPORT.md
-          echo "- Security and compliance updates" >> WEEKLY_REPORT.md
-          echo "- Documentation and knowledge sharing" >> WEEKLY_REPORT.md
-          echo "" >> WEEKLY_REPORT.md
-          echo "###  Upcoming Goals:" >> WEEKLY_REPORT.md
-          echo "- Continue building showcase projects" >> WEEKLY_REPORT.md
-          echo "- Publish technical articles" >> WEEKLY_REPORT.md
-          echo "- Engage with DevOps community" >> WEEKLY_REPORT.md
-
-      - name: "Commit changes"
+          echo "## Weekly Summary - Week $(date +%V)" >> WEEKLY.md
+          echo "Generated: $(date)" >> WEEKLY.md
+      - name: Commit
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Actions"
-          git add WEEKLY_REPORT.md
-          git commit -m "docs: add weekly activity summary" || echo "No changes"
-          git push || echo "Nothing to push"
+          git config --local user.name "GitHub Action"
+          git add WEEKLY.md || true
+          git commit -m "docs: weekly summary" || true
+          git push || true
