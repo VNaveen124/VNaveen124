@@ -1,4 +1,4 @@
-name: 📊 Update Profile Stats
+name: "\ud83d\udcca Update Profile Stats"
 
 on:
   schedule:
@@ -10,22 +10,22 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
     steps:
-      - name: 📥 Checkout
+      - name: "\ud83d\udce5 Checkout"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 🔄 Sync latest README
+      - name: "\ud83d\udd04 Sync latest README"
         run: |
-          echo "✅ Profile stats synced at $(date)" >> /tmp/log.txt
+          echo "\u2705 Profile stats synced at $(date)" >> /tmp/log.txt
           cat /tmp/log.txt
 
-      - name: 📝 Commit changes
+      - name: "\ud83d\udcdd Commit changes"
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "🤖 GitHub Actions"
+          git config --local user.name "\ud83e\udd16 GitHub Actions"
           git add README.md || true
-          git commit -m "🔄 chore: auto-update profile stats" || echo "No changes to commit"
+          git commit -m "\ud83d\udd04 chore: auto-update profile stats" || echo "No changes to commit"
           git push || echo "Nothing to push"

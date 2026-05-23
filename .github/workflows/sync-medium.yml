@@ -1,4 +1,4 @@
-name: 📚 Sync Medium Articles
+name: "\ud83d\udcda Sync Medium Articles"
 
 on:
   schedule:
@@ -10,24 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
     steps:
-      - name: 📥 Checkout
+      - name: "\ud83d\udce5 Checkout"
         uses: actions/checkout@v4
 
-      - name: 🔗 Fetch Medium RSS Feed
+      - name: "\ud83d\udd17 Fetch Medium RSS Feed"
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://medium.com/feed/@naveenkumarvelanati"
           readme_path: "./README.md"
           max_post_count: "5"
-          template: "- [📝 $title]($url)"
+          template: "- [\ud83d\udcdd $title]($url)"
           comment_tag_name: "MEDIUM_POSTS"
 
-      - name: 📝 Commit changes
+      - name: "\ud83d\udcdd Commit changes"
         run: |
-          git config --local user.email "naveenkumarvelanati@gmail.com"
-          git config --local user.name "🤖 GitHub Actions - Naveen"
+          git config --local user.email "action@github.com"
+          git config --local user.name "\ud83e\udd16 GitHub Actions"
           git add README.md
-          git commit -m "📚 chore: sync medium articles" || echo "No changes"
+          git commit -m "\ud83d\udcda chore: sync medium articles" || echo "No changes"
           git push || echo "Nothing to push"

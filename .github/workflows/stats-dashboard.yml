@@ -1,4 +1,4 @@
-name: 📊 Update Stats Dashboard
+name: "\ud83d\udcca Update Stats Dashboard"
 
 on:
   schedule:
@@ -12,39 +12,39 @@ jobs:
       contents: write
 
     steps:
-      - name: 📥 Checkout
+      - name: "\ud83d\udce5 Checkout"
         uses: actions/checkout@v4
 
-      - name: 📊 Generate Statistics
+      - name: "\ud83d\udcca Generate Statistics"
         run: |
           cat > STATS.md << 'EOF'
-          # 📊 Repository Statistics
-          
+          # \ud83d\udcca Repository Statistics
+
           ## Generated: $(date '+%Y-%m-%d %H:%M:%S')
-          
+
           ### Latest Contributions
           - Automated stats tracking
           - Continuous integration setup
           - Security implementations
           - DevOps best practices
-          
+
           ### Repository Health
-          - ✅ All workflows active
-          - ✅ Security scans enabled
-          - ✅ Documentation updated
-          - ✅ Code quality maintained
-          
+          - \u2705 All workflows active
+          - \u2705 Security scans enabled
+          - \u2705 Documentation updated
+          - \u2705 Code quality maintained
+
           ### Growth Metrics
-          - ⭐ Maintaining consistent commits
-          - 📈 Building community engagement
-          - 📝 Publishing regular content
-          - 🚀 Expanding project portfolio
+          - \u2b50 Maintaining consistent commits
+          - \ud83d\udcc8 Building community engagement
+          - \ud83d\udcdd Publishing regular content
+          - \ud83d\ude80 Expanding project portfolio
           EOF
 
-      - name: 📝 Commit changes
+      - name: "\ud83d\udcdd Commit changes"
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "🤖 GitHub Actions"
+          git config --local user.name "\ud83e\udd16 GitHub Actions"
           git add STATS.md
-          git commit -m "📊 chore: update statistics dashboard" || echo "No changes"
+          git commit -m "\ud83d\udcca chore: update statistics dashboard" || echo "No changes"
           git push || echo "Nothing to push"
