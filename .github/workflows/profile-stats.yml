@@ -1,4 +1,4 @@
-name: 📊 Update Profile Stats
+name: Update Profile Stats
 
 on:
   schedule:
@@ -11,18 +11,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: 📥 Checkout
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: 🔄 Sync latest README
+      - name: Sync latest README
         run: |
-          echo "✅ Profile stats synced at $(date)" >> /tmp/log.txt
+          echo "Profile stats synced at $(date)" >> /tmp/log.txt
           cat /tmp/log.txt
-      - name: 📝 Commit changes
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "🤖 GitHub Actions"
+          git config --local user.name "GitHub Actions"
           git add README.md || true
-          git commit -m "🔄 chore: auto-update profile stats" || echo "No changes to commit"
+          git commit -m "chore: auto-update profile stats" || echo "No changes to commit"
           git push || echo "Nothing to push"
