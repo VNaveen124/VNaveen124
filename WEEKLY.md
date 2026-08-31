@@ -26,3 +26,5 @@ Generated: Mon Aug 10 10:14:05 UTC 2026
 Generated: Mon Aug 17 09:37:38 UTC 2026
 ## Weekly Summary - Week 35
 Generated: Mon Aug 24 09:43:03 UTC 2026
+## Weekly Summary - Week 36
+Generated: Mon Aug 31 16:41:38 UTC 2026
