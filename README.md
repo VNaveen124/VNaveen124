@@ -93,16 +93,6 @@ With **4 years of DevOps expertise**, I transform infrastructure challenges into
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=VNaveen124&theme=onedark&no-frame=true&no-bg=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## 🌐 Connect With Me
 
 <div align="center">
